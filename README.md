@@ -2,212 +2,233 @@
 
 ## Sobre o projeto
 
-Este projeto foi feito para um desafio da DIO, usando o NotebookLM como apoio para estudar melhor um tema que eu realmente preciso evoluir: **Português e Redação para concursos públicos**.
+Esse projeto foi feito para o desafio da DIO, usando o NotebookLM como uma ferramenta de apoio nos estudos.
 
-Escolhi esse assunto porque português é uma matéria muito importante em praticamente qualquer concurso. Além disso, quero melhorar minha escrita, minha interpretação de texto e minha base gramatical para conseguir estudar com mais segurança.
+Escolhi o tema **Português e Redação para concursos**, porque é uma área que eu preciso melhorar bastante e que também aparece em praticamente qualquer prova. Minha ideia foi usar o NotebookLM para organizar melhor os conteúdos, testar perguntas diferentes e montar um material que eu consiga revisar depois.
 
-A ideia foi montar um caderno temático no NotebookLM com algumas fontes confiáveis, testar perguntas diferentes e transformar as respostas em um pequeno guia de estudos.
+Não foi só jogar uma pergunta na IA e copiar a resposta. Eu fui testando os prompts, vendo o que ficava bom, o que ficava muito genérico e o que precisava melhorar.
 
 ---
 
 ## Objetivo do caderno
 
-Meu objetivo com esse material foi organizar um estudo mais direto e prático sobre Português e Redação.
+O objetivo principal foi criar um caderno simples e útil para estudar Português e Redação com foco em concursos públicos.
 
-Com esse caderno, eu quis:
+Com esse material, eu quis:
 
 * entender melhor os principais pontos de gramática;
-* revisar assuntos que costumam aparecer em concursos;
-* melhorar minha escrita para redações;
-* aprender a criar perguntas melhores para a IA;
-* usar o NotebookLM como uma ferramenta de estudo, não só como um gerador de respostas prontas;
-* montar um material que eu consiga revisar depois.
+* revisar temas importantes para provas;
+* melhorar minha escrita;
+* entender melhor como montar uma redação;
+* aprender a usar o NotebookLM de um jeito mais organizado;
+* guardar prompts que eu possa reutilizar depois nos estudos.
 
 ---
 
-## Fontes que usei
+## Fontes usadas
 
-Separei algumas fontes abertas e confiáveis para colocar no NotebookLM. Tentei escolher materiais que realmente ajudassem nos estudos, principalmente na parte de escrita, redação e uso correto da língua portuguesa.
+Para montar o caderno no NotebookLM, escolhi algumas fontes abertas e confiáveis. Tentei usar materiais que fizessem sentido para o tema e que ajudassem tanto na parte de gramática quanto na parte de escrita.
 
-### 1. Manual de Redação da Presidência da República
+### Manual de Redação da Presidência da República
 
-[Acessar fonte](https://www.gov.br/pt-br/servicos/consultar-o-manual-de-redacao-da-presidencia-da-republica)
+[Acessar material](https://www.gov.br/pt-br/servicos/consultar-o-manual-de-redacao-da-presidencia-da-republica)
 
-Usei essa fonte porque ela explica bastante sobre clareza, objetividade, formalidade e redação oficial. Achei útil principalmente para entender como a escrita precisa ser mais direta em documentos públicos.
-
----
-
-### 2. Manual de Comunicação do Senado Federal
-
-[Acessar fonte](https://www12.senado.leg.br/manualdecomunicacao)
-
-Essa fonte me ajudou a ver algumas orientações de escrita e comunicação de uma forma mais prática. Ela também serve como consulta para dúvidas de linguagem e estilo.
+Usei esse material porque ele fala bastante sobre redação oficial, clareza, objetividade e escrita em ambientes públicos.
 
 ---
 
-### 3. Cartilha do Participante — Redação do Enem
+### Manual de Comunicação do Senado Federal
 
-[Acessar fonte](https://download.inep.gov.br/publicacoes/institucionais/avaliacoes_e_exames_da_educacao_basica/a_redacao_no_enem_2025_cartilha_do_participante.pdf)
+[Acessar material](https://www12.senado.leg.br/manualdecomunicacao)
 
-Mesmo sendo voltada para o Enem, achei essa cartilha útil porque ela explica bem a estrutura da redação dissertativo-argumentativa, principalmente introdução, desenvolvimento, conclusão, argumentação e coesão.
-
----
-
-### 4. Vocabulário Ortográfico da Língua Portuguesa — ABL
-
-[Acessar fonte](https://www.academia.org.br/nossa-lingua/vocabulario-ortografico)
-
-Usei essa fonte como apoio para conferir a escrita correta das palavras e entender melhor questões de ortografia.
+Esse manual ajudou principalmente em dúvidas de escrita, uso de palavras, formalidade e comunicação mais clara.
 
 ---
 
-## Testes de prompts no NotebookLM
+### Cartilha do Participante — Redação do Enem
 
-Durante o uso do NotebookLM, percebi que a forma de perguntar muda muito a qualidade da resposta. Quando eu fazia perguntas muito abertas, as respostas vinham meio genéricas. Quando eu deixava claro o que queria, o resultado ficava bem melhor.
+[Acessar material](https://download.inep.gov.br/publicacoes/institucionais/avaliacoes_e_exames_da_educacao_basica/a_redacao_no_enem_2025_cartilha_do_participante.pdf)
 
-Abaixo estão alguns prompts que testei.
+Mesmo sendo uma cartilha do Enem, achei útil porque explica bem a estrutura da redação dissertativo-argumentativa, que também ajuda quem estuda para concursos.
 
 ---
 
-### Prompt 1 — Visão geral do tema
+### Vocabulário Ortográfico da Língua Portuguesa — ABL
 
-**Pergunta usada:**
+[Acessar material](https://www.academia.org.br/nossa-lingua/vocabulario-ortografico)
+
+Usei como fonte de apoio para consultar a escrita correta das palavras e entender melhor questões de ortografia.
+
+---
+
+## Como usei o NotebookLM
+
+Depois de adicionar as fontes no NotebookLM, comecei a fazer perguntas para transformar os materiais em algo mais fácil de estudar.
+
+No começo, algumas respostas ficaram com uma linguagem muito formal ou pareciam amplas demais. Então fui ajustando os prompts para pedir respostas mais simples, explicações para iniciantes, glossário e questões de treino.
+
+Essa parte foi importante porque percebi que a qualidade da resposta depende muito da forma como a pergunta é feita.
+
+---
+
+## Prompts testados
+
+### 1. Resumo geral
+
+**Prompt usado:**
 
 > Com base nas fontes adicionadas, faça um resumo simples dos principais pontos de Português e Redação que eu preciso estudar para concursos públicos.
 
-**O que eu queria com esse prompt:**
+**Resultado:**
 
-Queria uma visão geral do conteúdo, sem entrar em detalhes demais logo no começo.
+O NotebookLM trouxe um resumo dividido em partes como gramática, redação oficial, redação dissertativa e pontos de atenção.
 
-**O que percebi:**
+**O que precisei ajustar:**
 
-A resposta ajudou a separar os assuntos principais, como gramática, coesão, clareza, redação oficial e estrutura de texto. Porém, a primeira resposta ficou um pouco ampla demais, então precisei pedir para o NotebookLM organizar melhor em tópicos.
+A resposta veio boa, mas ainda um pouco formal. Para ficar melhor, eu poderia pedir algo como:
+
+> Explique esse resumo com uma linguagem mais simples, como se fosse para um estudante iniciante.
 
 ---
 
-### Prompt 2 — Explicação para iniciante
+### 2. Explicação para iniciante
 
-**Pergunta usada:**
+**Prompt usado:**
 
 > Explique os conceitos mais importantes das fontes como se eu fosse um estudante iniciante em Português.
 
-**O que eu queria com esse prompt:**
+**Resultado:**
 
-Queria uma explicação mais fácil, sem linguagem muito complicada.
+Esse prompt funcionou melhor, porque a resposta veio mais fácil de entender. O NotebookLM explicou conceitos como VOLP, redação oficial, tese, argumentos, coesão e coerência.
 
-**O que percebi:**
+**O que aprendi com esse teste:**
 
-Esse prompt funcionou melhor do que pedir apenas um “resumo”. A resposta ficou mais simples e mais próxima de uma explicação de aula.
+Quando eu peço para explicar “como se fosse para iniciante”, a resposta fica menos pesada e mais útil para estudar.
 
 ---
 
-### Prompt 3 — Glossário
+### 3. Glossário
 
-**Pergunta usada:**
+**Prompt usado:**
 
 > Crie um glossário com os principais termos de Português e Redação encontrados nas fontes. Explique cada termo de forma curta e fácil de entender.
 
-**O que eu queria com esse prompt:**
+**Resultado:**
 
-Queria criar uma parte de consulta rápida, para revisar palavras importantes.
+O NotebookLM criou uma lista com termos importantes, como acordo ortográfico, coesão, coerência, tese, argumento, proposta de intervenção e repertório sociocultural.
 
-**O que percebi:**
+**O que precisei ajustar:**
 
-O glossário ficou bom, mas precisei pedir explicações mais curtas, porque algumas respostas vieram longas demais.
+Algumas explicações ainda ficaram com cara de definição de livro. O ideal é pedir para deixar mais direto e com exemplos simples.
 
 ---
 
-### Prompt 4 — Questões para revisar
+### 4. Questões de treino
 
-**Pergunta usada:**
+**Prompt usado:**
 
 > Crie 10 questões de múltipla escolha sobre o conteúdo das fontes. Coloque 4 alternativas em cada questão, informe o gabarito e explique a resposta correta.
 
-**O que eu queria com esse prompt:**
+**Resultado:**
 
-Queria transformar o conteúdo em exercício, porque só ler resumo não é suficiente para fixar.
-
-**O que percebi:**
-
-As questões ajudaram bastante, mas algumas ficaram fáceis. Depois testei pedir questões em nível fácil, médio e difícil, e o resultado melhorou.
-
----
-
-### Prompt 5 — Plano de estudo
-
-**Pergunta usada:**
-
-> Monte um plano de estudos de 7 dias usando as fontes. Divida por tema, atividade prática e revisão.
-
-**O que eu queria com esse prompt:**
-
-Queria uma forma de organizar o estudo sem ficar perdido.
+O NotebookLM criou questões com alternativas e gabarito comentado. Isso foi útil porque ajudou a transformar o conteúdo em revisão prática.
 
 **O que percebi:**
 
-Quando pedi apenas “plano de estudos”, a resposta veio muito teórica. Quando coloquei “tema, atividade prática e revisão”, ficou mais útil.
+Algumas questões ficaram fáceis. Para melhorar, eu poderia pedir:
+
+> Crie questões em três níveis: fácil, médio e difícil.
 
 ---
 
-## Miniguia de estudo
+### 5. Miniguia final
 
-A partir das fontes e dos testes no NotebookLM, montei este pequeno guia com os pontos que achei mais importantes.
+**Prompt usado:**
+
+> Com base nas fontes e em tudo que foi estudado neste caderno, crie um miniguia de estudo sobre Português e Redação para concursos. O guia deve ter resumo estruturado, glossário e prompts reutilizáveis para revisão.
+
+**Resultado:**
+
+Esse foi o prompt mais completo. Ele juntou os principais pontos estudados, criou um glossário e ainda sugeriu prompts para usar depois.
+
+**O que achei mais útil:**
+
+Esse prompt ajudou a fechar o caderno, porque transformou as respostas soltas em um material mais organizado.
 
 ---
 
-## 1. Resumo dos principais pontos
+## Principais pontos que estudei
 
-### Norma padrão
+### Gramática e norma padrão
 
-A norma padrão é a forma mais formal da língua portuguesa. Ela é usada em provas, redações, documentos oficiais e situações profissionais.
+A norma padrão é a forma mais correta e formal da língua. Ela é usada em provas, redações, documentos oficiais e situações profissionais.
 
-Para concursos, é importante estudar:
+Para concursos, os pontos mais importantes são:
 
 * ortografia;
 * acentuação;
 * pontuação;
-* concordância verbal e nominal;
+* concordância verbal;
+* concordância nominal;
 * regência;
-* colocação pronominal;
+* crase;
+* uso correto de pronomes;
 * interpretação de texto.
 
----
-
-### Clareza na escrita
-
-Um texto claro é aquele que passa a ideia sem confundir o leitor.
-
-Uma coisa que percebi estudando as fontes é que escrever bem não significa usar palavras difíceis. Muitas vezes, escrever bem é conseguir explicar uma ideia de forma simples, direta e organizada.
+Percebi que esses assuntos são a base para escrever melhor e também para resolver questões de Português.
 
 ---
 
-### Coesão e coerência
+### VOLP
 
-A coesão é a ligação entre as partes do texto. Ela aparece no uso de conectivos, pronomes e expressões que ajudam uma frase a se conectar com a outra.
+O VOLP é o Vocabulário Ortográfico da Língua Portuguesa. Ele serve para consultar a grafia correta das palavras.
 
-A coerência é o sentido do texto. Um texto coerente é aquele em que as ideias combinam entre si e seguem uma lógica.
-
-Exemplo simples:
-
-* Coesão: usar bem palavras como “portanto”, “além disso”, “porém” e “desse modo”.
-* Coerência: não mudar de assunto sem explicação e manter uma linha de raciocínio.
+Na prática, é como uma fonte oficial para tirar dúvidas sobre como uma palavra deve ser escrita.
 
 ---
 
 ### Redação oficial
 
-A redação oficial aparece em comunicações do serviço público. Ela precisa ser clara, objetiva, formal e impessoal.
+A redação oficial é a escrita usada em órgãos públicos e documentos formais.
 
-Algumas características importantes são:
+Ela precisa ser:
 
-* clareza;
-* objetividade;
-* formalidade;
-* padronização;
-* impessoalidade;
-* concisão.
+* clara;
+* objetiva;
+* respeitosa;
+* organizada;
+* impessoal;
+* sem enrolação.
 
-Esse tipo de escrita é importante para quem estuda para concursos administrativos, porque aparece muito no ambiente público.
+O ponto que mais chamou minha atenção foi que escrever de forma formal não significa escrever difícil. Um texto oficial precisa ser entendido com facilidade.
+
+---
+
+### Clareza na escrita
+
+Uma coisa importante que apareceu nas fontes é que um texto bom precisa ser claro.
+
+Isso significa evitar frases confusas, palavras desnecessárias e ideias mal organizadas. Para mim, esse foi um dos pontos mais importantes, porque às vezes a pessoa tenta escrever bonito demais e acaba deixando o texto difícil de entender.
+
+---
+
+### Coesão e coerência
+
+A coesão é a ligação entre as partes do texto. Ela aparece quando usamos palavras como:
+
+* além disso;
+* porém;
+* portanto;
+* dessa forma;
+* por outro lado;
+* assim.
+
+A coerência é o sentido do texto. Ou seja, as ideias precisam fazer sentido juntas e seguir uma linha de raciocínio.
+
+De forma simples:
+
+* coesão é a ligação entre as frases;
+* coerência é a lógica das ideias.
 
 ---
 
@@ -221,100 +242,133 @@ A estrutura básica é:
 2. desenvolvimento;
 3. conclusão.
 
-Na introdução, o tema é apresentado.
-No desenvolvimento, aparecem os argumentos.
-Na conclusão, a ideia principal é retomada e finalizada.
+Na introdução, eu apresento o tema e a ideia principal.
+No desenvolvimento, eu explico meus argumentos.
+Na conclusão, eu fecho o texto e apresento uma solução ou fechamento para o problema.
 
 ---
 
-### Ortografia
+### Tese e argumentos
 
-A ortografia é a escrita correta das palavras. Esse é um ponto importante porque erros de escrita podem prejudicar tanto em questões objetivas quanto em redações.
+A tese é a ideia principal que vou defender no texto.
 
-Uma boa forma de melhorar é revisar palavras que geram dúvida e consultar fontes confiáveis quando necessário.
+Os argumentos são as explicações, exemplos ou informações que uso para defender essa ideia.
 
----
-
-## 2. Glossário rápido
-
-| Termo                | Explicação simples                                                            |
-| -------------------- | ----------------------------------------------------------------------------- |
-| Norma padrão         | Forma formal da língua usada em provas, documentos e situações profissionais. |
-| Ortografia           | Escrita correta das palavras.                                                 |
-| Acentuação           | Uso correto dos acentos nas palavras.                                         |
-| Pontuação            | Uso correto de vírgula, ponto, dois-pontos e outros sinais.                   |
-| Concordância verbal  | Relação correta entre o sujeito e o verbo.                                    |
-| Concordância nominal | Relação correta entre substantivos, adjetivos, artigos e pronomes.            |
-| Regência             | Relação entre palavras e preposições.                                         |
-| Coesão               | Ligação entre as partes do texto.                                             |
-| Coerência            | Organização lógica das ideias.                                                |
-| Tese                 | Opinião principal defendida em um texto.                                      |
-| Argumento            | Ideia usada para defender uma opinião.                                        |
-| Clareza              | Qualidade de um texto fácil de entender.                                      |
-| Concisão             | Dizer o necessário sem enrolar.                                               |
-| Impessoalidade       | Evitar marcas pessoais em textos formais ou oficiais.                         |
+Entendi que uma redação não pode ser só opinião. Ela precisa ter argumentos bem organizados.
 
 ---
 
-## 3. Prompts que posso reutilizar depois
+### Repertório sociocultural
 
-Esses prompts podem ser usados novamente no NotebookLM para revisar o conteúdo.
+O repertório sociocultural é quando usamos conhecimentos de outras áreas para fortalecer a redação. Pode ser algo de História, Filosofia, Literatura, leis, filmes, livros ou acontecimentos sociais.
 
-### Resumo rápido
+Mas é importante que esse repertório combine com o tema. Usar uma frase decorada só para parecer bonito pode deixar o texto artificial.
 
-> Resuma os pontos mais importantes das fontes em uma linguagem simples, como se fosse uma revisão para concurso.
+---
 
-### Explicação fácil
+### Proposta de intervenção
 
-> Explique esse conteúdo como se eu estivesse começando do zero.
+A proposta de intervenção é uma sugestão de solução para o problema discutido na redação.
 
-### Questões de treino
+Uma proposta mais completa pode responder:
 
-> Crie questões de múltipla escolha com 4 alternativas, usando apenas as fontes adicionadas. Depois coloque o gabarito comentado.
+* quem vai fazer;
+* o que será feito;
+* como será feito;
+* qual resultado se espera;
+* algum detalhe a mais sobre a ação.
 
-### Revisão de véspera
+Esse ponto aparece muito na redação do Enem, mas também ajuda a treinar organização de ideias para outros tipos de texto.
 
-> Monte uma revisão de véspera com os assuntos mais importantes das fontes.
+---
 
-### Plano de estudo
+## Glossário simples
 
-> Crie um plano de estudo de 7 dias com teoria, prática e revisão.
+| Termo                | Explicação                                                             |
+| -------------------- | ---------------------------------------------------------------------- |
+| Norma padrão         | Forma mais formal e correta da língua portuguesa.                      |
+| Ortografia           | Escrita correta das palavras.                                          |
+| Acentuação           | Uso correto dos acentos.                                               |
+| Pontuação            | Uso de vírgula, ponto, dois-pontos e outros sinais.                    |
+| Concordância verbal  | Quando o verbo combina corretamente com o sujeito.                     |
+| Concordância nominal | Quando palavras como artigo, substantivo e adjetivo combinam entre si. |
+| Regência             | Relação entre palavras e preposições.                                  |
+| Crase                | Junção da preposição “a” com o artigo “a”.                             |
+| Coesão               | Ligação entre frases e parágrafos.                                     |
+| Coerência            | Organização lógica das ideias.                                         |
+| Tese                 | Ideia principal defendida em uma redação.                              |
+| Argumento            | Explicação usada para defender uma ideia.                              |
+| Repertório           | Conhecimento usado para fortalecer a argumentação.                     |
+| Redação oficial      | Tipo de escrita usada em órgãos públicos e documentos formais.         |
+| Clareza              | Quando o texto é fácil de entender.                                    |
+| Concisão             | Dizer o necessário sem enrolar.                                        |
+| Impessoalidade       | Evitar opinião pessoal direta em textos formais.                       |
 
-### Glossário
+---
 
-> Crie um glossário com os principais conceitos das fontes e explique cada um de forma curta.
+## Prompts que posso usar de novo
 
-### Redação
+Esses prompts ficaram úteis para continuar estudando depois.
+
+### Para revisar o conteúdo
+
+> Resuma os principais pontos das fontes em uma linguagem simples, como se fosse uma revisão para concurso.
+
+### Para estudar do zero
+
+> Explique esse conteúdo como se eu fosse iniciante em Português.
+
+### Para criar questões
+
+> Crie questões de múltipla escolha com 4 alternativas sobre o conteúdo das fontes. Depois coloque o gabarito comentado.
+
+### Para revisar antes de uma prova
+
+> Monte uma revisão rápida com os pontos mais importantes das fontes.
+
+### Para treinar redação
 
 > Explique como montar uma redação dissertativo-argumentativa com introdução, desenvolvimento e conclusão.
 
-### Dificuldades
+### Para melhorar um texto
 
-> Liste os pontos mais difíceis desse conteúdo e dê dicas simples para estudar cada um.
+> Analise este parágrafo e diga o que pode ser melhorado em clareza, coesão e gramática.
+
+### Para criar um plano de estudos
+
+> Monte um plano de estudos de 7 dias com teoria, prática e revisão.
+
+### Para entender erros
+
+> Liste os pontos mais difíceis desse conteúdo e explique como estudar cada um de forma simples.
 
 ---
 
-## O que aprendi fazendo esse projeto
+## O que aprendi com o projeto
 
-Fazendo esse projeto, percebi que a IA pode ajudar bastante nos estudos, mas ela não faz tudo sozinha. O resultado depende muito das fontes escolhidas e da qualidade das perguntas.
+Fazendo esse projeto, percebi que a IA pode ajudar bastante nos estudos, mas ela precisa ser usada com atenção.
 
-Também percebi que perguntar de forma genérica nem sempre ajuda. Quando eu explicava melhor o que queria, como “faça em tópicos”, “explique para iniciante” ou “crie questões com gabarito”, as respostas ficavam bem mais úteis.
+Se eu faço uma pergunta muito genérica, a resposta também vem genérica. Quando eu explico melhor o que quero, o resultado fica bem mais útil.
 
-Outro ponto importante foi entender que o NotebookLM funciona melhor quando as fontes estão bem escolhidas. Por isso, tentei usar materiais oficiais e confiáveis.
+Também aprendi que as fontes fazem muita diferença. Quando o NotebookLM trabalha com materiais confiáveis, as respostas ficam melhores e mais seguras.
+
+Outro ponto importante foi entender que eu não preciso apenas copiar a resposta da IA. Posso usar a resposta como base, ajustar com minhas palavras e transformar em um material mais fácil de estudar.
 
 ---
 
 ## Conclusão
 
-Esse caderno temático me ajudou a organizar melhor meus estudos de Português e Redação. Além de revisar conteúdos importantes, também consegui testar formas diferentes de usar a IA como apoio no aprendizado.
+Esse caderno me ajudou a organizar melhor meus estudos de Português e Redação.
 
-O projeto mostra que a Inteligência Artificial pode ser uma ferramenta útil quando usada com objetivo, boas fontes e pensamento crítico.
+Com o NotebookLM, consegui transformar fontes grandes em resumos, glossário, questões e prompts de revisão. O projeto também me ajudou a entender melhor como fazer perguntas para a IA e como aproveitar melhor as respostas.
+
+No final, esse material ficou como um pequeno guia de estudos que posso continuar usando para revisar e melhorar minha escrita.
 
 ---
 
 ## Informações do projeto
 
-Tema: Português e Redação para Concursos
-Ferramenta usada: NotebookLM
-Entrega: README.md no GitHub
-Objetivo: organizar um caderno de estudos com fontes, prompts, resumo, glossário e revisão
+**Tema:** Português e Redação para Concursos
+**Ferramenta usada:** NotebookLM
+**Entrega:** Repositório no GitHub com README.md
+**Objetivo:** Criar um caderno de estudos com fontes, prompts, testes, resumo, glossário e revisão
